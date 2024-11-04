@@ -1,0 +1,67 @@
+body {
+  font-family: 'Lora', serif;
+  text-align: center;
+  color: #575F7D;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#boris {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background-color: white;
+  margin: 50px 0 20px;
+  padding: 40px;
+}
+
+.btn-blue {
+  background-color: #6b72e1;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  color: rgb(10,10,10);
+}
